@@ -25,3 +25,23 @@ header {
     padding-left: 30px;
     padding-right: 20px;
 }
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 50px;
+    padding-right: 300px;
+    background-color: #F2F2F2;
+}
+
+.titrefooter{
+    margin-inline-start: 30px;
+}
+
+.liste{
+    list-style-type: none;
+    padding-inline-start: unset
+}
+
