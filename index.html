@@ -16,25 +16,31 @@
     <header>
         <div ><a href="accueil"><img id="logo" src="public/assets/logo/Booki.png" alt="logo booki"></a></div>
         <div ><ul id="accueil">
-            <li id="hebergements">Hébergements</li>
-        <li id="activités">Activités</li></ul></div>
+            <li id="hebergements"><a style="text-decoration:none" href="#">Hébergements</a></li>
+        <li id="activités"><a style="text-decoration:none" href="#">Activités</a></li></ul></div>
     </header>
 
-    <section>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <section id="section1">
+        <h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
-        <form method="post">
-            <span><i class="fas fa-map-marker-alt"></i></span>
-            <input type="text" name="localisation" id="localisation">
-            <input type="submit" value="Rechercher">
+        <form method="post" id="formulaire">
+            <div id="iconmap"><i class="fas fa-map-marker-alt"></i></div>
+            <input id="localisation" type="search" placeholder="Marseille, France" name="localisation" >
+            <input id="recherche" type="submit" value="Rechercher">
         </form>
-        <div><h3>Filtres</h3>
-            <div><i class="fas fa-money-bill-wave"></i> Economique</div>
-            <div><i class="fas fa-child"></i> Familial</div>
-            <div><i class="fas fa-heart"></i> Romantique</div>
-            <div><i class="fas fa-dog"></i> Animaux autorisés</div>
+        <div id="filtres"><h3>Filtres</h3>
+            <div class="flitresinfo" >
+                <i class=" icones fas fa-money-bill-wave "></i> 
+                <div>Economique</div></div>
+            <div class="flitresinfo"><i class="icones fas fa-child "></i>
+            <div>Familial</div></div> 
+            <div class="flitresinfo"><i class="icones fas fa-heart "></i>
+            <div>Romantique</div> </div> 
+            <div class="flitresinfo"><i class="icones fas fa-dog "></i>
+            <div>Animaux autorisés</div></div> 
         </div>
-        <div><i class="fal fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</div>
+        <div id="info"><i class="iicone fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</div>
+    
     </section>
 
 
