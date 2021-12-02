@@ -9,15 +9,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
         <title>Booki</title>
     </head>
 
 <body>
     <header>
-        <div ><a href="accueil"><img id="logo" src="public/assets/logo/Booki.png" alt="logo booki"></a></div>
+        <div ><a href="index.html"><img id="logo" src="public/images/logo/Booki.png" alt="logo booki"></a></div>
         <div ><ul id="accueil">
-            <li id="hebergements"><a style="text-decoration:none" href="#">Hébergements</a></li>
-        <li id="activités"><a style="text-decoration:none" href="#">Activités</a></li></ul></div>
+            <li id="hebergements">
+                <a style="text-decoration:none" href="#hebergementsmarseille" >Hébergements</a></li>
+        <li id="activités">
+                <a style="text-decoration:none" href="#activités">Activités</a></li></ul></div>
     </header>
 
     <section id="section1">
@@ -26,7 +29,7 @@
         <form method="post" id="formulaire">
             <div id="iconmap"><i class="fas fa-map-marker-alt"></i></div>
             <input id="localisation" type="search" placeholder="Marseille, France" name="localisation" >
-            <input id="recherche" type="submit" value="Rechercher">
+            <input id="recherche" type="submit" value="Rechercher" action="index.html">
         </form>
         <div id="filtres"><h3>Filtres</h3>
             <div class="flitresinfo" >
@@ -39,15 +42,92 @@
             <div class="flitresinfo"><i class="icones fas fa-dog "></i>
             <div>Animaux autorisés</div></div> 
         </div>
-        <div id="info"><i class="iicone fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</div>
+        <div id="info"><i class=" fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</div>
+    </section>
+
+    <section id="sectionaside">
+    <section id="section2">
+        <h2 id="hebergementsmarseille">Hébergements à Marseille</h2>
     
+        <article id="hebergements1">
+         <div id="aubergecannebiere">  
+             <img id="imghebergement" src="public/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebiere">
+          <div> <h3 class="titrehabitat">Auberge de la Cannebiere</h3>
+        <p>Nuit à partir de <span class="prix">25€</span></p> 
+        <div><i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="gris fas fa-star"></i></div></div> </div> 
+    
+         <div id="hotelduport">  
+             <img id="imghebergement" src="public/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hôtel du port">
+        <h3 class="titrehabitat">Hôtel du port</h3>
+        <p>Nuit à partir de <span class="prix">52€</span></p>
+        <div><i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i></div>
+        </div>
+
+        <div id="hotellesmoettes">
+            <img id="imghebergement" src="public/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hôtel les mouettes">
+            <h3 class="titrehabitat">Hôtel Les mouettes</h3>
+            <p>Nuit à partir de <span class="prix">76€</span></p>
+            <div><i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="gris fas fa-star"></i></div>
+        </div>
+        </article>
+
+        <article id="hebergements2">
+            <div id="hoteldelamer">
+                <img id="imghebergement" src="public/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+            <h3 class="titrehabitat">Hôtel de la mer</h3>
+            <p>Nuit à partir de <span class="prix">46€</span></p>
+            <div><i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="gris fas fa-star"></i>
+                <i class="gris fas fa-star"></i></div></div>
+
+            <div id="aubergelepanier">
+                <img id="imghebergement" src="public/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
+            <h3 class="titrehabitat">Auberge Le Panier</h3>
+            <p>Nuit à partir de <span class="prix">23€</span></p>
+            <div><i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="bleu fas fa-star"></i>
+            <i class="gris fas fa-star"></i></div></div>
+
+            <div id="hotelchezamina"> 
+                <img id="imghebergement" src="public/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+            <h3 class="titrehabitat">Hôtel chez Amina</h3>
+            <p>Nuit à partir de <span class="prix">96€</span></p>
+            <div><i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i>
+                <i class="bleu fas fa-star"></i></div></div></article>
+
+            <h3 id="afficher" class="titrehabitat">Afficher plus</h3>
+        
+    </section>
+
+    <aside id="aside">
+        <div id="lpp"><h2>Les plus populaires</h2><i class="fas fa-chart-line"></i></div></aside>
     </section>
 
 
-    <section></section>
-    <aside></aside>
 
-    <section>
+
+
+
+    <section><h2>Activités à Marseille</h2>
     </section>
     
 
@@ -65,7 +145,7 @@
             <li>Soumettre votre hôtel</li></ul>
         </div>
         <div><h3 class="titrefooter">Assistance</h3>
-        <ul class="liste"><li>Centre d'aide</li></br>
+        <ul class="liste"><li>Centre d'aide</li>
         <li>Nous contacter</li></ul></div>
         </section>
     </footer>
