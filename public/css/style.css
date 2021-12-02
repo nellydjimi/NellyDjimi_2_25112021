@@ -27,9 +27,6 @@ header {
     padding-right: 20px;
     color: black;}
 
-li:hover{
-    color: #0065FC ;
-    border-top: 3px solid #0065FC ;}
 
 
 #section1{
@@ -130,15 +127,15 @@ li:hover{
     margin-right: 40px;
     margin-left: 30px;
     margin-bottom: 20px;
-    
     padding-left: 20px;
-    width: 70%;}
+    width: 65%;}
 
 
 #hebergementsmarseille{
     display: flex;
     margin-top: 40px;
-    margin-left: 15px;}
+    margin-left: 25px;
+    font-size: 20px;}
 
 .bleu{
     color:#0065FC
@@ -154,15 +151,44 @@ li:hover{
 
 .titrehabitat{
     font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 1px;}
+
+.imghebergement{
+    width: 96%;
+    height: 60%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+
+.infohebergements{
+    display:flex;
+    flex-direction: column;
+}
+.nuits{
+    padding-top: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+    font-size: 13px;}
+
+.prix{
     font-weight: bold;}
 
-#imghebergement{
-    width: 60%;
-    height: 40%;
-    padding-top: 5px;
+.etoiles{
     padding-left: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;}
+    font-size: 13px;
+}
+.imghebergement img{
+    width:300px;
+height:1000px;
+}
+
+
 
 #aubergecannebiere{
     background-color: white;
@@ -217,16 +243,133 @@ li:hover{
     margin-left: 15px;
 }
 
-
+/*ASIDE LES PLUS POPULAIRES*/
 
 
 #aside{
     background-color: #F2F2F2;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     margin-right: 20px;
     width: 30%;}
 
+#lpp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 20px;}
+
+
+
+#articlepop{
+    display: flex;
+    flex-direction: column;
+}
+.imgpop{
+    width: 100px;
+    height: 140px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+#soleildumatin{
+    background-color: white;
+    border-radius: 20px;
+    height: 40%;
+    width: 80%;
+    margin-right: 40px;
+    margin-left: 30px;
+   
+    display: flex;
+    flex-direction: row;
+    }
+
+#aucoeur{
+    background-color: white;
+    border-radius: 20px;
+    height: 40%;
+    width: 99%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    }
+
+#hotelbetb{
+    background-color: white;
+    border-radius: 20px;
+    height: 40%;
+    width: 99%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+/*Section3*/
+
+#section3{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#articleactivites{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.unactivite{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: #F2F2F2 3px 3px 3px;}
+
+.imgactivite{
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#deuxactivites{
+    display: flex;
+    flex-direction: column;}
+
+.deuxactivitestop{
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.deuxactivitesbottom{
+    border-radius: 20px;
+    box-shadow: #F2F2F2 3px 3px 3px;
+    margin-left: 60px;
+    margin-right: 60px;}
+
+.imgactivites{
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 
 
@@ -236,6 +379,8 @@ li:hover{
 
 
 
+
+/*FOOTER*/
 
 #footer {
     display: flex;
@@ -245,12 +390,11 @@ li:hover{
     background-color: #F2F2F2;
 }
 
-.titrefooter{
-    margin-inline-start: 30px;
-}
+
 
 .liste{
     list-style-type: none;
-    padding-inline-start: unset
-}
+    padding-inline-start: unset}
+
+
 
