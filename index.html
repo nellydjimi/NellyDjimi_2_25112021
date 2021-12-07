@@ -18,29 +18,32 @@
         <div ><a href="index.html"><img id="logo" src="public/images/logo/Booki.png" alt="logo booki"></a></div>
         <div ><ul id="accueil">
             <li id="hebergements">
-                <a style="text-decoration:none" href="#hebergementsmarseille" >Hébergements</a></li>
+                <a style="text-decoration:none" class="lien" href="#hebergementsmarseille" >Hébergements</a></li>
         <li id="activités">
                 <a style="text-decoration:none" href="#activitésamarseille">Activités</a></li></ul></div>
     </header>
 
     <section id="section1">
         <h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
+        <p id="soustitre">En plein centre ville ou en pleine nature</p>
         <form method="post" id="formulaire">
             <div id="iconmap"><i class="fas fa-map-marker-alt"></i></div>
             <input id="localisation" type="search" placeholder="Marseille, France" name="localisation" >
             <input id="recherche" type="submit" value="Rechercher" action="index.html">
         </form>
         <div id="filtres"><h3>Filtres</h3>
-            <div class="flitresinfo" >
-                <i class=" icones fas fa-money-bill-wave "></i> 
-                <div>Economique</div></div>
-            <div class="flitresinfo"><i class="icones fas fa-child "></i>
-            <div>Familial</div></div> 
-            <div class="flitresinfo"><i class="icones fas fa-heart "></i>
-            <div>Romantique</div> </div> 
-            <div class="flitresinfo"><i class="icones fas fa-dog "></i>
-            <div>Animaux autorisés</div></div> 
+
+            <button><span class="flitresinfo" ><i class=" icones fas fa-money-bill-wave "></i></span> 
+                Economique</button>
+                
+                <button><span class="flitresinfo"><i class="icones fas fa-child "></i></span> 
+            Familial</button>
+
+            <button><span class="flitresinfo"><i class="icones fas fa-heart "></i></span> 
+            Romantique </button>
+
+            <button><span class="flitresinfo"><i class="icones fas fa-dog "></i></span>
+            Animaux autorisés </button>
         </div>
         <div id="info"><i class=" fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</div>
     </section>
@@ -51,7 +54,7 @@
     
         <article id="hebergements1">
          <div id="aubergecannebiere">  
-             <img class="imghebergement" src="public/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebiere">
+            <a href="#"><img class="imghebergement" src="public/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebiere">
           <div> <h3 class="titrehabitat">Auberge de la Cannebiere</h3>
         <p class="nuits">Nuit à partir de <span class="prix">25€</span></p> 
         <div class="etoiles"><i class="bleu fas fa-star"></i>
@@ -59,10 +62,10 @@
             <i class="bleu fas fa-star"></i>
             <i class="bleu fas fa-star"></i>
             <i class="gris fas fa-star"></i></div>
-        </div> </div> 
+        </div> </a></div> 
     
          <div id="hotelduport">  
-             <img class="imghebergement" src="public/images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hôtel du port">
+            <a href="#"><img class="imghebergement" src="public/images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hôtel du port">
         <h3 class="titrehabitat">Hôtel du port</h3>
         <p class="nuits">Nuit à partir de 52<span class="prix">€</span></p>
         <div class="etoiles"><i class="bleu fas fa-star"></i>
@@ -70,10 +73,10 @@
             <i class="bleu fas fa-star"></i>
             <i class="bleu fas fa-star"></i>
             <i class="bleu fas fa-star"></i></div>
-        </div>
+            </a></div>
 
         <div id="hotellesmoettes">
-            <img class="imghebergement" src="public/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hôtel les mouettes">
+            <a href="#"><img class="imghebergement" src="public/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hôtel les mouettes">
             <h3 class="titrehabitat">Hôtel Les mouettes</h3>
             <p class="nuits">Nuit à partir de 76<span class="prix">€</span></p>
             <div class="etoiles"><i class="bleu fas fa-star"></i>
@@ -81,31 +84,34 @@
                 <i class="bleu fas fa-star"></i>
                 <i class="bleu fas fa-star"></i>
                 <i class="gris fas fa-star"></i></div>
-        </div>
+        </a></div>
         </article>
 
         <article id="hebergements2">
             <div id="hoteldelamer">
-                <img class="imghebergement" src="public/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+                <a href="#"> <img class="imghebergement" src="public/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
             <h3 class="titrehabitat">Hôtel de la mer</h3>
             <p class="nuits">Nuit à partir de 46<span class="prix">€</span></p>
             <div class="etoiles"><i class="bleu fas fa-star"></i>
                 <i class="bleu fas fa-star"></i>
                 <i class="bleu fas fa-star"></i>
                 <i class="gris fas fa-star"></i>
-                <i class="gris fas fa-star"></i></div></div>
+                <i class="gris fas fa-star"></i></div>
+            </a></div>
 
             <div id="aubergelepanier">
-                <img class="imghebergement" src="public/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
+                <a href="#"><img class="imghebergement" src="public/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
             <h3 class="titrehabitat">Auberge Le Panier</h3>
             <p class="nuits">Nuit à partir de <span class="prix">23€</span></p>
             <div class="etoiles"><i class="bleu fas fa-star"></i>
             <i class="bleu fas fa-star"></i>
             <i class="bleu fas fa-star"></i>
             <i class="bleu fas fa-star"></i>
-            <i class="gris fas fa-star"></i></div></div>
+            <i class="gris fas fa-star"></i></div>
+        </a></div>
 
             <div id="hotelchezamina"> 
+                <a href="#">
                 <img class="imghebergement" src="public/images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
             <div class="infohebergements"><h3 class="titrehabitat">Hôtel chez Amina</h3>
             <p class="nuits">Nuit à partir de 96<span class="prix">€</span></p>
@@ -113,9 +119,11 @@
                 <i class="bleu fas fa-star"></i>
                 <i class="bleu fas fa-star"></i>
                 <i class="bleu fas fa-star"></i>
-                <i class="bleu fas fa-star"></i></div></div></div></article>
+                <i class="bleu fas fa-star"></i></div>
+            </div>
+        </a></div></article>
 
-            <h3 id="afficher" class="titrehabitat">Afficher plus</h3>
+            <h3 id="afficher" class="titrehabitat"><a href="#">Afficher plus</a></h3>
         
     </section>
 
@@ -193,18 +201,24 @@
         <section id="footer">
         <div>
             <h3 class="titrefooter"> A propos</h3>
-            <ul class="liste" id="apropos"><li>Fonctionnement du site</li></br>
-            <li>Conditions générales de vente</li></br>
-            <li>Données et confidentialités</li></ul>
+            <ul class="liste" id="apropos">
+                <li><a href="#">Fonctionnement du site</a></li></br>
+                <li><a href="#">Conditions générales de vente</a></li></br>
+                <li><a href="#">Données et confidentialités</a></li></ul>
         </div>
         <div>
             <h3 class="titrefooter">Nos hébergements</h3>
-            <ul class="liste"><li>Charte qualité</li></br>
-            <li>Soumettre votre hôtel</li></ul>
+            <ul class="liste">
+                <li><a href="#">Charte qualité</a></li></br>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
         </div>
         <div ><h3 class="titrefooter">Assistance</h3>
-        <ul class="liste"><li>Centre d'aide</li></br>
-        <li>Nous contacter</li></ul></div>
+        <ul class="liste">
+            <li><a href="#">Centre d'aide</a></li></br>
+            <li><a href="#">Nous contacter</a></li>
+        </ul>
+        </div>
         </section>
     </footer>
 </body>

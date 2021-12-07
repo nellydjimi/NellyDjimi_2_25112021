@@ -1,5 +1,8 @@
 body{
-    font-family: 'Raleway', sans-serif;}
+    font-family: 'Raleway', sans-serif;
+margin-left: auto;
+margin-right: auto;
+max-width: 95%;}
 
    
 
@@ -9,10 +12,22 @@ header {
     align-items: center;
     margin: 20px;}
 
+header a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;}  
+    
+header li a:hover{
+    color:#0065FC;
+    border-top:3px solid #0065FC;
+}
+
  #logo{
     max-height: 50%;
     max-width: 50%;
-    padding-left: 20px;}
+    margin-left: 25px;}
 
 #accueil{ display: flex;
     flex-direction: row;
@@ -20,95 +35,123 @@ header {
 
 #hebergements{
     padding-right: 40px;
-    color: black;}
+    }
 
 #activités{
     padding-left: 30px;
-    padding-right: 20px;
-    color: black;}
+    padding-right: 20px;}
 
 
+/*Section 1*/
 
 #section1{
     padding-left: 30px;}
 
 #titre{
     font-size: 20px;
-    font-weight: bold;}
+    font-weight: bold;
+    margin-bottom: 9px;}
+
+#soustitre{
+    font-size: 14px;
+    margin-top: 5px;}
 
 #formulaire{
-    width: 500px;
-    border-radius: 10px;
+    width: 390px;
     display: flex;}
 
 #iconmap{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
     border: none;
-    text-align: center;
-    display: flex !important;}
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 #localisation{
-    height: 50px;
-    width: 230px;
-    margin-left: 10px;
+    height: 45px;
+    width: 190px;
+    margin-left: 20px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-left: none;
+    border-right: none;
     color: black;
-    font-size: 20px;
-    border: none;}
+    font-size: 20px;}
 
 #recherche{
     border: none;
     background-color: #0065FC;
     color: white;
-    border-radius: 0px 10px 10px 0px;
-    height: 50px;
-    width: 110px;}
+    border-radius: 0px 15px 15px 0px;
+    height: 45px;
+    width: 110px;
+    cursor: pointer;
+    }
+
+button{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #cacaca;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 25px;}
+
+button:hover{
+    background-color: #DEEBFF;
+    border:#DEEBFF;
+}
 
 #filtres{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-top: 30px;}
+    margin-top: 25px;}
+
+#filtres h3{
+    margin-right: 35px;
+    font-size: 15px;
+    font-weight: bold;}
 
     .icones{
         display: flex !important;
         color:#0065FC;
-        background-color:#DEEBFF;
-        border-radius: 25px;
-        height: 40px;
-        width: 40px;
+        background-color: #DEEBFF;
+        border-radius: 25px ;
+        border: 2px solid #DEEBFF;
+        height: 36px;
+        width: 36px;
         font-size: 15px;
-        border: 2px solid #F2F2F2;
+        margin-left: -8px;
+        margin-right: 10px;
         align-items: center;
        justify-content: space-around;}  
 
   
-.flitresinfo{
-    margin-left: 30px;
-    margin-right: 20px;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
-    width: 150px;
-    display: flex;
-    align-items: center;}
+
 
 
 #info{
     margin-top: 20px;
     display: flex;
+    align-items: center;
     font-size: 15px;}
 #info .fas.fa-info{
     display: flex;
     justify-content: center;
     align-items: center;
     color:#0065FC ;
-    border: 3px solid #F2F2F2;
+    border: 1px solid grey;
     border-radius: 20px;
-    width: 15px;
-    height: 15px;
-    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
     margin-right: 10px;}
 
 
@@ -138,12 +181,13 @@ header {
     font-size: 20px;}
 
 .bleu{
-    color:#0065FC
-}
+    color:#0065FC}
+
+
 
 .gris{
-    color:#F2F2F2;
-}
+    color:#F2F2F2;}
+
 #hebergements1{
     display: flex;
     padding-left: 20px;
@@ -181,12 +225,11 @@ header {
 
 .etoiles{
     padding-left: 10px;
-    font-size: 13px;
-}
+    font-size: 13px;}
+
 .imghebergement img{
     width:300px;
-height:1000px;
-}
+height:1000px;}
 
 
 
@@ -241,7 +284,12 @@ height:1000px;
     margin-top: 50px;
     margin-bottom: 40px;
     margin-left: 15px;
-}
+    cursor: pointer;}
+
+    section a {
+        cursor: pointer;
+        color : black;
+        text-decoration: none;}
 
 /*ASIDE LES PLUS POPULAIRES*/
 
@@ -396,5 +444,8 @@ height:1000px;
     list-style-type: none;
     padding-inline-start: unset}
 
-
+footer a {
+    cursor: pointer;
+    color : black;
+    text-decoration: none;}
 
