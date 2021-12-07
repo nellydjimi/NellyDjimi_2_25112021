@@ -22,7 +22,9 @@ header a {
 header li a:hover{
     color:#0065FC;
     border-top:3px solid #0065FC;
+    
 }
+
 
  #logo{
     max-height: 50%;
