@@ -10,17 +10,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;}
+    margin: 2%;}
 
 header a {
     cursor: pointer;
     color: black;
+    padding-left: 5%;
+    padding-top: 40px;
     text-decoration: none;
     font-size: 14px;}  
     
 header li a:hover{
     color:#0065FC;
     border-top:3px solid #0065FC;
+    
     margin-bottom: 12px;
 }
 
@@ -39,6 +42,8 @@ header li a:hover{
 
 #hebergements{
     padding-right: 40px;
+    padding-left: 2px;
+   
     }
 
 #activités{
@@ -49,14 +54,16 @@ header li a:hover{
 /*Section 1*/
 
 #section1{
-    padding-left: 30px;
-margin-left: 20px;
-margin-right: 20px;}
+    padding-left: 2%;
+margin-left: 2%;
+margin-right: 2%;}
 
 #titre{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 9px;}
+
+
 
 #soustitre{
     font-size: 14px;
@@ -84,8 +91,11 @@ margin-right: 20px;}
     border-bottom: 1px solid #F2F2F2;
     border-left: none;
     border-right: none;
+    
     color: black;
-    font-size: 20px;}
+    font-size: 15px;
+    font-weight: bold;
+}
 
 #recherche{
     border: none;
@@ -166,10 +176,10 @@ button:hover{
 
 #sectionaside{
     display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 60px;
-    margin-bottom: 50px;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 4%;
+    margin-bottom: 4%;
 }
 
 #section2{
@@ -177,19 +187,17 @@ button:hover{
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-right: 40px;
-    margin-left: 30px;
-    padding-left: 20px;
-    padding-bottom: 40px;
+    margin-right: 4%;
+    margin-left: 3%;
     width: 60%;}
 
 
 #hebergementsmarseille{
     display: flex;
-    margin-top: 40px;
-    margin-left: 25px;
-    margin-bottom: 15px;
-    font-size: 17px;}
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    font-size: 1em;}
 
 .bleu{
     color:#0065FC}
@@ -201,23 +209,24 @@ button:hover{
 
 #hebergements1{
     display: flex;
-    padding-left: 10px;
-    margin-right: 30px;}
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;}
 
 .titrehabitat{
-    font-size: 14px;
+    font-size: 0.8em;
     font-weight: bold;
-    padding-left: 10px;
-    margin-top: 2px;
-    margin-bottom: 4px;}
+    padding-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;}
 
 .imghebergement{
     width: 96%;
     height: 60%;
-
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    object-fit: cover;
+    padding-top: 2%;
+    padding-left: 2%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;}
 
@@ -225,31 +234,24 @@ button:hover{
 
 .infohebergements{
     display:flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
+
 .nuits{
     padding-top: none;
     margin-top: 1px;
     margin-bottom: 1px;
     padding-left: 10px;
-    font-size: 12px;}
+    font-size: 0.7em;}
 
 .prix{
     font-weight: bold;}
 
 .etoiles{
     padding-left: 10px;
-    font-size: 10px;
+    font-size: 0.6em;
     margin-top: 4px;}
 
-.imghebergement img{
-    width: 96%;
-    height: 60%;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;}
+
 
 
 
@@ -258,49 +260,50 @@ button:hover{
     box-shadow:1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    width: 230px;
-    height: 190px;}
+    width: 55%;
+    height: 93%;}
 
 #hotelduport{
     background-color: white;
     box-shadow:1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    width: 230px;
-    height: 190px;
-    margin-left: 15px;}
+    width: 55%;
+    height: 93%;
+    margin-left: 3%;}
 
 #hotellesmoettes{
     background-color: white;
     box-shadow:1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    width: 230px;
-    height: 190px;
-    margin-left: 15px;}
+    width: 55%;
+    height: 93%;
+    margin-left: 3%;}
 
 #hebergements2{
     display: flex;
-    margin-top: 30px;
-    padding-left: 10px;
-    margin-right: 30px;}
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 30%;}
 
 #hoteldelamer{
     background-color: white;
     box-shadow:1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    width: 230px;
-    height: 190px;}
+    width: 55%;
+    height: 87%;}
 
 #aubergelepanier{
     background-color: white;
     box-shadow:1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    width: 230px;
-    height: 190px;
-    margin-left: 15px;}
+    width: 55%;
+    height: 87%;
+    margin-left: 3%;}
 
 #hotelchezamina{
     background-color: white;
@@ -308,23 +311,24 @@ button:hover{
     cursor: pointer;
     border-radius: 20px;
     background-size: 2%;
-    width: 230px;
-    height: 190px;
-    margin-left: 15px;}
+    width: 55%;
+    height: 87%;
+    margin-left: 3%;}
 
 #imgamina{
     width: 96%;
     height: 60%;
     padding-top: 5px;
-padding-left: 5px;
-padding-right: 5px;
+padding-left: 4px;
+
 border-top-left-radius: 20px;
-    border-top-right-radius: 20px;}
+    border-top-right-radius: 20px;
+    object-fit: cover;}
 
 #afficher{
     display: flex;
-    margin-top: 45px;
-    margin-left: 15px;
+    margin-top: 2%;
+    padding-left: 4%;
     cursor: pointer;}
 
     section a {
@@ -340,125 +344,178 @@ border-top-left-radius: 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
     width: 33%;}
+
+#asidehotel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 #lpp{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 30px;
-    margin-left: 20px;
-    margin-top: 40px;
-    margin-bottom: 17px;
-    font-size: 17px;}
+    margin-right: 9%;
+    margin-left: 7%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    font-size: 1em;}
 
-#articlepop{
+#titrepop1{
+    font-size: 0.8em;
+    margin-left:12%;
+}
+
+#titrepop2{
+    font-size: 0.8em;
+    margin-left:10%;
+}
+
+#titrepop3{
+    font-size: 0.8em;
+    margin-left:13%;
+}
+
+
+#nuitspop1{
+    font-size: 0.7em;
+    margin-left:12%;
+}
+#nuitspop2{
+    font-size: 0.7em;
+    margin-left:10%;
+}
+#nuitspop3{
+    font-size: 0.7em;
+    margin-left:13%;
+}
+
+#etoilespop1{
+    font-size: 0.6em;
+    margin-left: 12%;
+    margin-top:25%;
+}
+
+#etoilespop2{
+    font-size: 0.6em;
+    margin-left: 10%;
+    margin-top:20%;
+}
+
+
+#etoilespop3{
+    font-size: 0.6em;
+    margin-left: 13%;
+    margin-top:25%;
+}
+
+#flexpopulaires{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    }
+#divvide{
+    flex: 1;}
 
-.infopop{
+#soleildumatin{
+    display: flex;
+    margin-top:1% ;
+    margin-left:7%;
+    margin-right: 7%;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 1px 2px 2px #cacaca;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 99%;
+    width: 85%;
+}
+#imgsoleildumatin{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 5%;
+    margin-top:5%;
+    width: 120px;
+    height:115px;
+    object-fit: cover;}
+
+#aucoeurdeleau{
+    display: flex;
+    margin-top:7% ;
     
-    margin-top: 15px;
-    margin-left: 5px;
-    margin-right: 9px;
+    margin-left:7%;
+    margin-right: 7%;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 1px 2px 2px #cacaca;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 85%;
+    width: 85%;
+}
+#imgaucoeurdeleau{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 5%;
+    margin-top:5%;
+    width: 120px;
+    height:115px;
+    object-fit: cover;
 }
 
-#hotelsoleil{
+#toutbleuetblanc{
     display: flex;
-    flex-direction: row;
+    margin-top:7% ;
+    margin-left:7%;
+    margin-right: 7%;
     background-color: white;
-    box-shadow:1px 2px 2px #cacaca;
+    box-shadow: 1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    height: 140px;
-    width: 320px;
-    margin-right: 35px;
-    margin-left: 25px;
-    margin-bottom: 30px;}
-
-#imghotelsoleil{
-    width: 130px;
-    height: 130px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-left: 4px;
-    margin-top:5px;
-    margin-bottom: 5px;
+    height: 74%;
+    width: 85%;
 }
-
-#aucoeur{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    box-shadow:1px 2px 2px #cacaca;
-    cursor: pointer;
-    border-radius: 20px;
-    height: 140px;
-    width: 320px;
-    margin-right: 35px;
-    margin-left: 25px;
-    margin-bottom: 30px;}
-
-#imgaucoeur{
-    width: 130px;
-    height: 130px;
+#imgtoutbleuetblanc{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-left: 4px;
-    margin-top:5px;
-    margin-bottom: 5px;}
-
-#hotelbetb{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    box-shadow:1px 2px 2px #cacaca;
-    cursor: pointer;
-    border-radius: 20px;
-    height: 140px;
-    width: 320px;
-    margin-right: 35px;
-    margin-left: 25px;}
-
-
-#imghotelbetb{
-    width: 130px;
-    height: 130px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-left: 4px;
-    margin-top:5px;
-    margin-bottom: 5px;}
-
-.etoilespop{
-    margin-top: 60px;
-    padding-left: 10px;
-    font-size: 10px;}
-
-#etoilespopulaire{
-    margin-top: 45px;
-    padding-left: 10px;
-    font-size: 10px;}
-
-
-
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-bottom: 19%;
+    width: 120px;
+    height:115px;
+    object-fit: cover;}
 
 
 /*Section3*/
 
 #section3{
-    margin-left: 20px;
-    margin-bottom: 30px;
-    margin-right: 20px;
-    margin-top: 60px;}
+    margin-left: 1%;
+    margin-bottom: 4%;
+    margin-right: 1%;
+    margin-top: 5%;}
 
 .titreactivites{
-    font-size: 13px;
+    font-size: 0.8EM;;
     font-weight: bold;
-    padding-left: 10px;
-    margin-top: 10px;
-    margin-left:5px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left:3%;
+}
+
+.titreactivites2{
+    font-size: 0.8EM;;
+    font-weight: bold;
+    margin-left: 7%;
+    padding-bottom: 6%;
+}
+
+
+.titreactivites3{
+    font-size: 0.8EM;;
+    font-weight: bold;
+    padding-bottom: 8%;
+    margin-top: 5%;
+    margin-left:7%;
 }
 
 #activitésamarseille{
@@ -479,8 +536,7 @@ border-top-left-radius: 20px;
 .unactivite{
     display: flex;
     flex-direction: column;
-    width: 250px ;
-    height:350px ;
+    
     border-radius: 20px;
     box-shadow: #F2F2F2 3px 3px 3px;}
 
@@ -488,13 +544,15 @@ border-top-left-radius: 20px;
     width: 250px;
     height: 305px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;}
+    border-top-right-radius: 20px;
+    object-fit: cover;}
 
  #imgpndc{
         width: 250px;
         height: 305px;
         border-top-left-radius: 20px;
-        border-top-right-radius: 20px;}
+        border-top-right-radius: 20px;
+        object-fit: cover;}
 
 #deuxactivites{
     display: flex;
@@ -505,55 +563,55 @@ border-top-left-radius: 20px;
 #activitepomegues{
     border-radius: 20px;
     box-shadow: #F2F2F2 3px 3px 3px;
-    width: 250px;
-    height: 180px;
+    
     margin-bottom: 15px;}
 
 #imgpomegues{
     width: 250px;
     height: 135px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;}
+    border-top-right-radius: 20px;
+    object-fit: cover;}
 
 #activitesfrioul{
     border-radius: 20px;
     box-shadow: #F2F2F2 3px 3px 3px;
-    
-    width: 250px ;
-    height:155px;}
+    margin-top:9%;
+    }
 
 #imgfrioul{
     width: 250px;
-    height: 110px;
+    height: 98px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;}
+    border-top-right-radius: 20px;
+    object-fit: cover;}
 
 #activitenddlg{
     border-radius: 20px;
     box-shadow: #F2F2F2 3px 3px 3px;
-    width: 250px ;
-    height:155px;
+   
 }
 
     #imgnddlg{
         width: 250px;
-        height: 110px;
+        height: 98px;
         border-top-left-radius: 20px;
-        border-top-right-radius: 20px;}
+        border-top-right-radius: 20px;
+        object-fit: cover;}
 
 #activiteparclongchamp{
     border-radius: 20px;
     box-shadow: #F2F2F2 3px 3px 3px;
-    width: 250px;
-    height: 180px;
-    margin-top: 15px;   
+    
+    margin-top: 9%;   
 }
 
     #imgparclongchamp{
         width: 250px;
         height: 135px;
         border-top-left-radius: 20px;
-        border-top-right-radius: 20px;}
+        border-top-right-radius: 20px;
+        object-fit: cover;}
 
 
 
