@@ -15,8 +15,9 @@ header {
 header a {
     cursor: pointer;
     color: black;
-    padding-left: 5%;
-    padding-top: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 38px;
     text-decoration: none;
     font-size: 14px;}  
     
@@ -31,7 +32,7 @@ header li a:hover{
  #logo{
     max-height: 50%;
     max-width: 50%;
-    margin-left: 25px;}
+    margin-left: 5%;}
 
 #accueil{ display: flex;
     flex-direction: row;
@@ -179,11 +180,11 @@ button:hover{
     margin-top: 3%;
     margin-left: 1%;
     margin-right: 4%;
-    margin-bottom: 4%;
+    
 }
 
 #section2{
-    display: flex;
+    display: initial;
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -212,7 +213,8 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     margin-left: 4%;
-    margin-right: 4%;}
+    margin-right: 4%;
+    height: 30%;}
 
 .titrehabitat{
     font-size: 0.8em;
@@ -261,7 +263,7 @@ button:hover{
     cursor: pointer;
     border-radius: 20px;
     width: 55%;
-    height: 93%;}
+    height: 87%;}
 
 #hotelduport{
     background-color: white;
@@ -269,7 +271,7 @@ button:hover{
     cursor: pointer;
     border-radius: 20px;
     width: 55%;
-    height: 93%;
+    height: 87%;
     margin-left: 3%;}
 
 #hotellesmoettes{
@@ -278,7 +280,7 @@ button:hover{
     cursor: pointer;
     border-radius: 20px;
     width: 55%;
-    height: 93%;
+    height: 87%;
     margin-left: 3%;}
 
 #hebergements2{
@@ -342,7 +344,7 @@ border-top-left-radius: 20px;
 #aside{
     background-color: #F2F2F2;
     border-radius: 20px;
-    display: flex;
+    display: initial;
     flex-direction: column;
     width: 33%;}
 
@@ -394,20 +396,20 @@ border-top-left-radius: 20px;
 #etoilespop1{
     font-size: 0.6em;
     margin-left: 12%;
-    margin-top:25%;
+    margin-top:24%;
 }
 
 #etoilespop2{
     font-size: 0.6em;
     margin-left: 10%;
-    margin-top:20%;
+    margin-top:19%;
 }
 
 
 #etoilespop3{
     font-size: 0.6em;
     margin-left: 13%;
-    margin-top:25%;
+    margin-top:24%;
 }
 
 #flexpopulaires{
@@ -427,15 +429,15 @@ border-top-left-radius: 20px;
     box-shadow: 1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    height: 99%;
+    height: 98%;
     width: 85%;
 }
 #imgsoleildumatin{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-left: 5%;
-    margin-top:5%;
-    width: 120px;
+    margin-left: 3%;
+    margin-top:3%;
+    width: 125px;
     height:115px;
     object-fit: cover;}
 
@@ -450,15 +452,15 @@ border-top-left-radius: 20px;
     box-shadow: 1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    height: 85%;
+    height: 83%;
     width: 85%;
 }
 #imgaucoeurdeleau{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-left: 5%;
-    margin-top:5%;
-    width: 120px;
+    margin-left: 3%;
+    margin-top:3%;
+    width: 125px;
     height:115px;
     object-fit: cover;
 }
@@ -472,27 +474,27 @@ border-top-left-radius: 20px;
     box-shadow: 1px 2px 2px #cacaca;
     cursor: pointer;
     border-radius: 20px;
-    height: 74%;
+    height: 72%;
     width: 85%;
 }
 #imgtoutbleuetblanc{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-top: 6%;
-    margin-left: 5%;
-    margin-bottom: 19%;
-    width: 120px;
+    margin-top: 3%;
+    margin-left: 3%;
+    
+    width: 125px;
     height:115px;
     object-fit: cover;}
-
+margin-bottom: 19%;
 
 /*Section3*/
 
-#section3{
-    margin-left: 1%;
-    margin-bottom: 4%;
-    margin-right: 1%;
-    margin-top: 5%;}
+#sections3{
+    margin-left: 4%;
+    margin-bottom: 3%;
+    margin-right: 4%;
+    margin-top: 6%;}
 
 .titreactivites{
     font-size: 0.8EM;;
@@ -519,9 +521,10 @@ border-top-left-radius: 20px;
 }
 
 #activitésamarseille{
-    margin-left: 30px;
-    margin-bottom: 20px;
-    font-size: 17px;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 1em;
 }
 
 #articleactivites{
@@ -529,8 +532,9 @@ border-top-left-radius: 20px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 30px;
-    margin-right:35px;
+    margin-left: 4%;
+    margin-right:4%;
+    margin-bottom: 4%;
 }
 
 .unactivite{
