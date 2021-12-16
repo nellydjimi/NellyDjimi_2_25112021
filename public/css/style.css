@@ -987,7 +987,13 @@ footer li{
         #filtres{
             flex-wrap: wrap;
         }
+
+        #filtres h3{
+            margin-bottom: 5%;}
        
+        button{
+            margin-bottom: 2%;
+        }
          
         /*MEDIA QUERY SECTIONASIDE SECTION2*/
          
