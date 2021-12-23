@@ -527,7 +527,6 @@ footer a {
     }
 
     #accueil{
-    width: 100%;
     padding-left: 6%;
     }
 
@@ -663,7 +662,7 @@ footer a {
     }
 
     #aside{
-    width: 105%;
+    width: 376px;
     border-radius: inherit;
     padding-bottom: 5%;
     }
@@ -735,8 +734,7 @@ footer a {
     #footer{
     flex-direction: column;
     padding-right: inherit;
-    width: 100%;
-    
+    width: 376px;
     }
 
     footer h3{
