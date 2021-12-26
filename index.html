@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="public/css/normalize.css">
-        <link rel="stylesheet" href="public/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <header>
         <div >
             <a href="index.html">
-                <img id="logo" src="public/images/logo/Booki.png" alt="logo booki">
+                <img id="logo" src="images/logo/Booki.png" alt="logo booki">
             </a>
         </div>
         <div >
@@ -40,10 +40,12 @@
             <form method="post" id="formulaire">
                 <div id="iconmap"><i class="fas fa-map-marker-alt"></i></div>
                 <input id="localisation" type="search" placeholder="Marseille, France" name="localisation" >
-                <span>
-                <input id="recherche" type="submit" value="Rechercher" >
-                <i id="loupe" class="fa-solid fa-magnifying-glass"></i>
+                
+                <span id="recherche">
+                <input  id="recherchetexte" type="submit" value="Rechercher" >
+                <i class="loupe fas fa-search"></i>
                 </span>
+           
             </form>
         
             <div id="filtres"><h3>Filtres</h3>
@@ -84,7 +86,7 @@
     <article class="hebergementssection">
         <div class="hebergementsdiv"> 
             <a href="#">
-            <img class="imghebergement" src="public/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebiere">
+            <img class="imghebergement" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebiere">
             <h3 class="titrehabitat">Auberge de la Cannebiere</h3>
             <p class="nuits">Nuit à partir de <span class="prix">25€</span></p> 
             <div class="etoiles">
@@ -99,7 +101,7 @@
     
         <div class="hebergementsdiv"> 
             <a href="#"> 
-            <img class="imghebergement" src="public/images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hôtel du port">
+            <img class="imghebergement" src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hôtel du port">
             <h3 class="titrehabitat">Hôtel du port</h3>
             <p class="nuits">Nuit à partir de 52<span class="prix">€</span></p>
             <div class="etoiles">
@@ -114,7 +116,7 @@
 
         <div class="hebergementsdiv">
             <a href="#">
-            <img class="imghebergement" src="public/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hôtel les mouettes">
+            <img class="imghebergement" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hôtel les mouettes">
             <h3 class="titrehabitat">Hôtel Les mouettes</h3>
             <p class="nuits">Nuit à partir de 76<span class="prix">€</span></p>
             <div class="etoiles">
@@ -132,7 +134,7 @@
     <article class="hebergementssection">
         <div class="hebergementsdiv"> 
             <a href="#">
-            <img class="imghebergement" src="public/images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="auberge la cannebiere">
+            <img class="imghebergement" src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="auberge la cannebiere">
             <h3 class="titrehabitat">Hôtel de la mer</h3>
             <p class="nuits">Nuit à partir de 46<span class="prix">€</span></p> 
             <div class="etoiles">
@@ -147,7 +149,7 @@
       
     <div class="hebergementsdiv"> 
         <a href="#"> 
-            <img class="imghebergement" src="public/images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
+            <img class="imghebergement" src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
             <h3 class="titrehabitat">Auberge Le Panier</h3>
             <p class="nuits">Nuit à partir de 23<span class="prix">€</span></p>
             <div class="etoiles">
@@ -162,7 +164,7 @@
   
     <div class="hebergementsdiv">
         <a href="#">
-            <img class="imghebergement" src="public/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
+            <img class="imghebergement" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
             <h3 class="titrehabitat">Hôtel chez Amina</h3>
             <p class="nuits">Nuit à partir de 96<span class="prix">€</span></p>
             <div class="etoiles">
@@ -189,7 +191,7 @@
 
     <div class="hotels">
         <a class="popflex" href="#">
-            <div><img class="imghotels" src="public/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></div>
+            <div><img class="imghotels" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></div>
             <div class="infopop">
             <h3 >Hôtel Le Soleil du matin</h3>
             <p class="nuitspop">Nuit à partir de 128<span class="prix">€</span></p>
@@ -207,7 +209,7 @@
     
     <div class="hotels">
         <a class="popflex" href="#">
-            <div><img class="imghotels" src="public/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></div>
+            <div><img class="imghotels" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></div>
             <div class="infopop">
             <h3 >Au coeur de l'eau Chambres d'hôtes</h3>
             <p class="nuitspop">Nuit à partir de 71<span class="prix">€</span></p>
@@ -229,7 +231,7 @@
             
     <div class="hotels">
         <a class="popflex" href="#">
-            <div><img class="imghotels" src="public/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></div>
+            <div><img class="imghotels" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></div>
                 
             <div class="infopop">
             <h3 >Hôtel Tout bleu et Blanc</h3>
@@ -257,7 +259,7 @@
         <article id="articleactivites">
             <div class="marseilleactivite">
                 <a href="#">
-                    <img class="img1" src="public/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port">
+                    <img class="img1" src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port">
                     <h3 class="titreactivites">Vieux Port</h3>
                 </a>
             </div>
@@ -266,14 +268,14 @@
                 
         <a href="#">
             <div id="activitepomegues">
-                <img class="img2" src="public/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomeques">
+                <img class="img2" src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomeques">
                 <h3 class="titreactivites2">Fort de Pomègues</h3>
             </div>
         </a>
 
         <a href="#">
             <div class="activites3" >
-                <img class="img3" src="public/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles de frioul">
+                <img class="img3" src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles de frioul">
                 <h3 class="titreactivites3">Îles de Frioul</h3>
             </div>
         </a>
@@ -283,7 +285,7 @@
             <div class="marseilleactivite">
         
         <a href="#">
-                <img class="img1" src="public/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
+                <img class="img1" src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
                 <h3 class="titreactivites">Parc National des Calanques</h3>
         </a>
             </div>
@@ -291,13 +293,13 @@
             <div class="marseilleactivite2">
                 <a href="#">
                     <div id="activitenddlg">
-                    <img class="img3" src="public/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"  alt="notre-dame-de-la-garde">
+                    <img class="img3" src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"  alt="notre-dame-de-la-garde">
                     <h3 class="titreactivites2">Notre-Dame-de-la-Garde</h3>
                     </div>
                 </a>
 
                 <a href="#">
-                    <div class="activites3"><img class="img2" src="public/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="longchamp">
+                    <div class="activites3"><img class="img2" src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="longchamp">
                     <h3 class="titreactivites3">Parc Longchamp</h3>
                     </div>
                 </a>
