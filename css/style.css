@@ -2,7 +2,6 @@ body{
     font-family: 'Raleway', sans-serif;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 section a {
@@ -35,13 +34,14 @@ header li a:hover{
     margin-bottom: 12px;
 }
 
- #logo{
+#logo{
     max-height: 50%;
     max-width: 50%;
     margin-left: 5%;
 }
 
-#accueil{ display: flex;
+#accueil{ 
+    display: flex;
     flex-direction: row;
     list-style-type: none;
 }
@@ -124,7 +124,6 @@ header li a:hover{
     border: none;
     padding: 13%;
 }
-
 
 #filtres{
     display: flex;
@@ -369,7 +368,7 @@ aside h3{
 .etoilespop{
     font-size: 0.6em;
     padding-left: 5%;
-    }
+}
 
 .space{
     flex: 1;
@@ -519,7 +518,7 @@ footer a {
 @media screen and (max-width: 376px) {
 
     body{
-        overflow-x: hidden;
+    overflow-x: hidden;
     }
         
     header {
@@ -581,13 +580,11 @@ footer a {
     margin-right: inherit;
     }        
         
-
     #titre{
     margin-left: 5%;        
     margin-right: 2%;
     }
         
-
     #soustitre{
     margin-left: 5%;
     }
@@ -597,7 +594,6 @@ footer a {
     margin-left:5%;
     }
         
-
     #localisation{
     margin-left: 5px;
     }
@@ -774,7 +770,6 @@ footer a {
 
 }
 
-
                                         /*MEDIA QUERY TABLETTE*/
 
 
@@ -849,8 +844,7 @@ footer a {
     margin-left: 5%;        
     margin-right: 2%;
     }
-                                                
-                                        
+                                                                                  
     #soustitre{
     margin-left: 5%;
     }
@@ -858,8 +852,7 @@ footer a {
     #formulaire{
     width: 290px;
     margin-left: 5%;}
-                                                
-                                        
+                                                                                     
     #localisation{
     margin-left: 5px;
     }
@@ -898,8 +891,7 @@ footer a {
     padding-top: 35%;
     color:white;
     }
-                                                
-                                        
+                                                                                      
     /*MEDIA QUERY SECTION2*/  
                                         
     #hebergementsmarseille{
