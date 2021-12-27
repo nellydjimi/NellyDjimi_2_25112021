@@ -183,7 +183,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#0065FC ;
+    color:#0065FC;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     width: 20px;
@@ -191,8 +191,6 @@ button:hover{
     font-size: 12px;
     margin-right: 10px;
 }
-
-
 
 /*Hebergements a marseille*/
 
@@ -565,7 +563,6 @@ footer a {
     padding-left: inherit;
     text-align: center;
     width: 50%; 
-    border-bottom:3px solid #F2F2F2;
     }        
         
     #activités{
@@ -573,7 +570,6 @@ footer a {
     padding-right: inherit;
     text-align: center;
     width: 50%;
-    border-bottom:3px solid #F2F2F2;
     } 
                
 
@@ -809,19 +805,20 @@ footer a {
     header li a {                                        
     padding-bottom: 8%;                                        
     width: 100%;                                        
-    display: block;                                        
+    display: block;
+    border-bottom:3px solid #F2F2F2;                                            
     }                                        
                                         
     header a {                                        
     padding-left:inherit;
     padding-right: inherit;                                        
-    padding-top: 20px;                                        
+    padding-top: 20px;   
     }                                        
                                                    
     header li a:hover{                                        
     color:#0065FC;                                        
     border-top: none;                                        
-    border-bottom-color: #0065FC;                                        
+    border-bottom:3px solid #0065FC;                                        
     }                                                    
                                                     
     #hebergements{                                        
@@ -829,7 +826,6 @@ footer a {
     padding-left: inherit;
     text-align: center;
     width: 50%; 
-    border-bottom:3px solid #F2F2F2;
     }        
                                                 
     #activités{
@@ -837,7 +833,6 @@ footer a {
     padding-right: inherit;
     text-align: center;
     width: 50%;
-    border-bottom:3px solid #F2F2F2;
     } 
                                                        
                                         
