@@ -119,7 +119,7 @@ header li a:hover{
     background-color: #0065FC;
     color: white;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 14px;
     border-radius: 0px 15px 15px 0px;
     border: none;
     padding: 13%;
@@ -217,7 +217,7 @@ button:hover{
     margin-top: 5%;
     margin-bottom: 4%;
     margin-left: 4%;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .hebergementssection{
@@ -250,7 +250,7 @@ button:hover{
 }    
 
 .titrehabitat{
-    font-size: 0.75em;
+    font-size: 12px;
     font-weight: bold;
     padding-left: 5%;
     margin-top: 2%;
@@ -262,7 +262,7 @@ button:hover{
     margin-top: 2%;
     margin-bottom: 2%;
     padding-left: 5%;
-    font-size: 0.6em;}
+    font-size: 10px;}
 
 .prix{
     font-weight: bold;
@@ -270,7 +270,7 @@ button:hover{
 
 .etoiles{
     padding-left: 5%;
-    font-size: 0.6em;
+    font-size: 10px;
     margin-top: 2%;
     margin-bottom: 3%;
 }
@@ -310,7 +310,7 @@ aside h2{
     margin-left: 7%;
     margin-top: 10%;
     margin-bottom: inherit;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 #flexpopulaires{
@@ -387,7 +387,7 @@ aside h3{
 #activitésamarseille{
     margin-top: 4%;
     margin-bottom: 2%;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .marseilleactivite{
@@ -437,7 +437,7 @@ aside h3{
 }
 
 .titreactivites{
-    font-size: 0.8EM;;
+    font-size: 13px;
     font-weight: bold;
     margin-top: 7%;
     margin-bottom: 7%;
@@ -445,14 +445,14 @@ aside h3{
 }
 
 .titreactivites2{
-    font-size: 0.8EM;;
+    font-size: 13px;
     font-weight: bold;
     margin-left: 7%;
     padding-bottom: 6%;
 }
 
 .titreactivites3{
-    font-size: 0.8EM;;
+    font-size: 13px;
     font-weight: bold;
     padding-bottom: 8%;
     margin-top: 5%;
@@ -490,12 +490,17 @@ aside h3{
     background-color: #F2F2F2;
 }
 
+footer h3{
+    font-size: 16px;
+}
+
 footer div{
     margin-left: 50px;
 }
 
 footer li{
     margin-bottom: 7%;
+    font-size: 15px;
 }
 
 .liste{
